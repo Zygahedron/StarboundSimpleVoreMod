@@ -24,7 +24,9 @@ end
 
 function update(dt)
 		
-		vector = world.entityPosition( predator )
+		if predator ~= nil and world.entityExists( predator ) then
+			vector = world.entityPosition( predator )
+		end
 		
 		if vector ~= nil then
 			mcontroller.setPosition( vector )

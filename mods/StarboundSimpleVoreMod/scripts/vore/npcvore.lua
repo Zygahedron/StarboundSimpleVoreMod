@@ -186,7 +186,7 @@ function digest()
 			removeit = true;
 		end
 		if removeit then
-			if not world.entityExists( victim[i] ) then
+			-- if not world.entityExists( victim[i] ) then
 				for j = i, capacity do
 					if j == capacity then
 						dead[j] = false
@@ -203,7 +203,7 @@ function digest()
 					end
 				end
 				do return end
-			end
+			-- end
 		end
 		if isDigest then
 			if not dead[i] and world.entityHealth(victim[i])[1] / world.entityHealth(victim[i])[2] < 0.03 then

@@ -1,6 +1,7 @@
 {
   "type" : "mall_treebuddy",
   "baseType" : "villager",
+  "npcname" : "TreeBuddy",
   
   "damageTeamType" : "friendly",
   "scriptConfig" : { 

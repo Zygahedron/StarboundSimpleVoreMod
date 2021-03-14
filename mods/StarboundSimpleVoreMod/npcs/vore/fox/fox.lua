@@ -43,7 +43,7 @@ end
 
 function updateHook()
 
-	if containsPlayer() and math.random(700) == 1 and ( playerTimer < duration or request[1] == true or request[2] == true ) then
+	if containsPlayer() and math.random(700) == 1 and ( ( playerTimer and duration and playerTimer < duration) or request[1] == true or request[2] == true ) then
 		sayline( playerLines )
 	end
 

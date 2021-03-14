@@ -38,7 +38,7 @@ end
 function updateHook()
 
 	if containsPlayer() and math.random(700) == 1 then
-		sayLines( playerLines )
+		sayLine( playerLines )
 	end
 
 end

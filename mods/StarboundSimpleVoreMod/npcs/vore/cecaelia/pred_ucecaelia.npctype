@@ -8,7 +8,7 @@
   
   "scriptConfig" : { 
 	"questGenerator" : {
-      "pools" : ["normal"],
+      "pools" : ["common"],
       "enableParticipation" : true
     },
     "dialog" : {
