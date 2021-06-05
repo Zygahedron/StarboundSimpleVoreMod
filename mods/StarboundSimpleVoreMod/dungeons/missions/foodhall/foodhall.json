@@ -3886,27 +3886,6 @@
                 }, 
                 {
                  "height":8,
-                 "id":579,
-                 "name":"",
-                 "properties":
-                    {
-                     "npc":"dummy",
-                     "typeName":"mall_nicole"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":1704,
-                 "y":416
-                }, 
-                {
-                 "height":8,
                  "id":580,
                  "name":"",
                  "properties":
